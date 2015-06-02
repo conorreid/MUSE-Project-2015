@@ -1,0 +1,18 @@
+Use Alt+11 to open up Macros in Excel
+
+The function returns a numeric value. If you want to create an even shorter macro to do the processing, consider the following:
+Function StripChar(aText As String)
+    Dim I As Integer
+
+    StripChar = ""
+    For I = 1 To Len(aText)
+        aChar = Mid(aText, I, 1)
+        Select Case aChar
+            Case "0" To "9"
+                StripChar = StripChar & aChar
+        End Select
+    Next
+End Function
+To use this function, use either of the following in your worksheet:
+=STRIPCHAR(A1)
+=VALUE(STRIPCHAR(A1))
