@@ -2216,7 +2216,6 @@ for(n in 1:103){
     tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
   }
   x <- x + 1
-  x <- x + 1
   if(Swedish.Kursk$Hegira.Date[n]==x){
     tidy.data$X1[n] <- x
     tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
@@ -2276,7 +2275,6 @@ for(n in 1:103){
     tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
     tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
   }
-  x <- x + 1
   x <- x + 1
   if(Swedish.Kursk$Hegira.Date[n]==x){
     tidy.data$X1[n] <- x
@@ -2338,7 +2336,6 @@ for(n in 1:103){
     tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
   }
   x <- x + 1
-  x <- x + 1
   if(Swedish.Kursk$Hegira.Date[n]==x){
     tidy.data$X1[n] <- x
     tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
@@ -2398,7 +2395,6 @@ for(n in 1:103){
     tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
     tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
   }
-  x <- x + 1
   x <- x + 1
   if(Swedish.Kursk$Hegira.Date[n]==x){
     tidy.data$X1[n] <- x
@@ -2460,7 +2456,6 @@ for(n in 1:103){
     tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
   }
   x <- x + 1
-  x <- x + 1
   if(Swedish.Kursk$Hegira.Date[n]==x){
     tidy.data$X1[n] <- x
     tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
@@ -2520,7 +2515,6 @@ for(n in 1:103){
     tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
     tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
   }
-  x <- x + 1
   x <- x + 1
   if(Swedish.Kursk$Hegira.Date[n]==x){
     tidy.data$X1[n] <- x
@@ -2582,7 +2576,6 @@ for(n in 1:103){
     tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
   }
   x <- x + 1
-  x <- x + 1
   if(Swedish.Kursk$Hegira.Date[n]==x){
     tidy.data$X1[n] <- x
     tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
@@ -2643,7 +2636,6 @@ for(n in 1:103){
     tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
   }
   x <- x + 1
-  x <- x + 1
   if(Swedish.Kursk$Hegira.Date[n]==x){
     tidy.data$X1[n] <- x
     tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
@@ -2703,7 +2695,6 @@ for(n in 1:103){
     tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
     tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
   }
-  x <- x + 1
   x <- x + 1
   if(Swedish.Kursk$Hegira.Date[n]==x){
     tidy.data$X1[n] <- x
@@ -2720,3 +2711,2710 @@ for(n in 1:103){
 }
 #now let's export this data
 write.csv(tidy.data, file = "Swedish_Kursk_Hegira_to_Christian.csv", row.names = FALSE)
+#we have to do this for the second date, too
+#reset data frame
+tidy.data <- data.frame(tidy.matrix)
+#create procedure
+for(n in 1:103){
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- x + 1
+  if(Swedish.Kursk$Hegira.Date.2[n]==x){
+    tidy.data$X1[n] <- x
+    tidy.data$X2[n] <- Hegira.to.Gregorian.Dates$A.D..1[x]
+    tidy.data$X3[n] <- Hegira.to.Gregorian.Dates$A.D.2[x]
+  }
+  x <- 1
+}
+write.csv(tidy.data, file = "Swedish_Kursk_Hegira_to_Christian_2.csv", row.names = FALSE)
