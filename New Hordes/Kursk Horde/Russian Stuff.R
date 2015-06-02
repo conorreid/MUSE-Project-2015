@@ -2718,3 +2718,5 @@ for(n in 1:90){
   }
   x <- 1
 }
+#now let's export the data
+write.csv(tidy.data, file = "Russian_Stuff_Hegira_to_Christian.csv", row.names = FALSE)
