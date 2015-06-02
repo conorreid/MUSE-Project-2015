@@ -10830,3 +10830,5 @@ for(n in 1:4682){
   }
   x <- 1
 }
+#now let's export the data
+write.csv(tidy.data, file = "Spillings_2_4_Hegira_to_Christian.csv", row.names = FALSE)
