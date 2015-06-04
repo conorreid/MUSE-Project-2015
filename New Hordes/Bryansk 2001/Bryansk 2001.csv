@@ -1,58 +1,58 @@
-Information,Hegira Dates,Date Range 1,Date Range 2
-"Abbasid AR dirham, al-Ma'mun, Samarqand 206 AH, w. al-`Ala'",206,821,822
-"Abbasid dirham, al-Muqtadir, Madit al-Salam 306 AH",306,918,919
-"Abbasid dirham, al-Muqtadir, Madit al-Salam 316 AH",316,928,929
-"Abbasid dirham, al-Muqtadir, Madit al-Salam, 306 AH",306,918,919
-"Abbasid dirham, al-Mu`tadid, Madit al-Salam ? 287 AH",287,900,
-"Abbasid dirham, Harun Al-Rashid, Al-Abbasiya 171 AH",171,787,788
-"Abbasid, al-Radi billah, Madit al-Salam, 329 AH",329,940,941
-,,,
-"Buwayhid mult.dirham, caliph al-Radi billah and Ali b. Buwayh, Shiraz 324",324,935,936
-"Buweihid, Imad al-Dawla `Ali b. Buwayh, al-Muhammadiya 338 AH",338,949,950
-"Buweyhid, Rukn al-Daulah Abu 'Ali, w. Abu Shuja', Siraf",,,
-,,,
-"NM 3xxAH, Samanid AR dirham, sr b. Ahmad",3xx,912,1009
-Samanid dirham imitation,,,
-Samanid dirham imitation,,,
-Samanid dirham imitation,,,
-"Samanid dirham, Isma'il b. Ahmad, broken",,,
-"Samanid dirham, Ahmad b. Isma'il, broken",,,
-"Samanid dirham, Ahmad b. Isma'il, Shash 296 AH",296,908,909
-"Samanid dirham, Ahmad b. Isma'il, Shash 296 AH",296,908,909
-"Samanid dirham, Ahmad b. Isma'il, Shash 299 AH",299,911,912
-"Samanid dirham, Ahmad II b. Isma'il, Shash, 300 AH",300,912,913
-"Samanid dirham, Isma'il b. Ahmad, Shash 293 AH",293,905,906
-"Samanid dirham, Isma'il b. Ahmad, Samarkand 292 AH",292,904,905
-"Samanid dirham, Isma'il b. Ahmad, Shash 286AH",286,899,900
-"Samanid dirham, Isma'il b. Ahmad, Shash 287 AH",287,900,
-"Samanid dirham, Isma'il b. Ahmad, Shash 294 AH",294,906,907
-"Samanid dirham, sr ibn Ahmad, Balkh 323 AH",323,934,935
-"Samanid dirham, sr II b. Ahmad, Nishapur 329 AH",329,940,941
-"Samanid dirham, sr II b. Ahmad, Samarkand 314 AH",314,926,927
-"Samanid dirham, sr II b. Ahmad, Samarkand 317 AH",317,929,930
-"Samanid dirham, sr II b. Ahmad, Samarkand 327AH",327,938,939
-"Samanid dirham, sr II b. Ahmad, Samarkand 330 AH",330,941,942
-"Samanid dirham, sr II b. Ahmad, Samarkand, 321 AH",321,933,
-"Samanid dirham, sr II b. Ahmad, Shash 309AH",309,921,922
-"Samanid dirham, sr II b. Ahmad, Shash 312AH",312,924,925
-"Samanid dirham, sr II b. Ahmad, Shash 316 AH",316,928,929
-"Samanid dirham, sr II b. Ahmad, Shash 324 AH",324,935,936
-"Samanid dirham, sr II b. Ahmad, Shash, 306 AH",306,918,919
-"Samanid dirham, sr II b. Ahmad, Shash, 320 AH",320,932,
-"Samanid dirham, Nuh b. sr, Buhara 331 AH",331,942,943
-"Samanid dirham, Nuh b. sr, Buhara, 339 AH",339,950,951
-"Samanid dirham, Nuh b. sr, Ma'dit 334AH",334,945,946
-"Samanid dirham, Nuh b. sr, Nishapur 333AH",333,944,945
-"Samanid dirham, Nuh b. sr, Nishapur 341 AH",341,952,953
-"Samanid dirham, Nuh b. sr, Samarkand 333 AH",333,944,945
-"Samanid dirham, Nuh b. sr, Samarkand 334AH",334,945,946
-"Samanid dirham, Nuh b. sr, Samarkand, 337 AH",337,948,949
-"Samanid dirham, Nuh b. sr, Shash 334AH graffiti",334,945,946
-"Samanid dirham, Nuh b. sr, Shash 340AH",340,951,952
-"Samanid dirham, Nuh b. sr, Shash 341AH",341,952,953
-"Samanid dirhem, Isma'il b. Ahmad, Shash 290 AH",290,902,903
-"Samanid multiple dirham, sr II b. Ahmad, Samarkand 328 AH",328,939,940
-"Samanid multiple dirham, sr II b. Ahmad, Shash 327AH",327,938,939
-"Samanid multiple dirham, sr II b. Ahmad, Shash, 317 AH",317,929,930
-,,,
-AR dirham fraction,,,
+Information,Weight,Hegira Dates,Date Range 1,Date Range 2
+"Abbasid AR dirham, al-Ma'mun, Samarqand 206 AH, w. al-`Ala'",2.56,206,821,822
+"Abbasid dirham, al-Muqtadir, Madit al-Salam 306 AH",2.6,306,918,919
+"Abbasid dirham, al-Muqtadir, Madit al-Salam 316 AH",3.15,316,928,929
+"Abbasid dirham, al-Muqtadir, Madit al-Salam, 306 AH",3.5,306,918,919
+"Abbasid dirham, al-Mu`tadid, Madit al-Salam ? 287 AH",2.91,287,900,
+"Abbasid dirham, Harun Al-Rashid, Al-Abbasiya 171 AH",2.6,171,787,788
+"Abbasid, al-Radi billah, Madit al-Salam, 329 AH",3.27,329,940,941
+,,,,
+"Buwayhid mult.dirham, caliph al-Radi billah and Ali b. Buwayh, Shiraz 324",5.43,324,935,936
+"Buweihid, Imad al-Dawla `Ali b. Buwayh, al-Muhammadiya 338 AH",2.64,338,949,950
+"Buweyhid, Rukn al-Daulah Abu 'Ali, w. Abu Shuja', Siraf",4.43,,,
+,,,,
+"NM 3xxAH, Samanid AR dirham, sr b. Ahmad",3.5,3xx,912,1009
+Samanid dirham imitation,2.72,,,
+Samanid dirham imitation,3.09,,,
+Samanid dirham imitation,3.62,,,
+"Samanid dirham, Isma'il b. Ahmad, broken",0.87,,,
+"Samanid dirham, Ahmad b. Isma'il, broken",0.49,,,
+"Samanid dirham, Ahmad b. Isma'il, Shash 296 AH",3.36,296,908,909
+"Samanid dirham, Ahmad b. Isma'il, Shash 296 AH",3.84,296,908,909
+"Samanid dirham, Ahmad b. Isma'il, Shash 299 AH",3.05,299,911,912
+"Samanid dirham, Ahmad II b. Isma'il, Shash, 300 AH",2.93,300,912,913
+"Samanid dirham, Isma'il b. Ahmad, Shash 293 AH",3.11,293,905,906
+"Samanid dirham, Isma'il b. Ahmad, Samarkand 292 AH",3.23,292,904,905
+"Samanid dirham, Isma'il b. Ahmad, Shash 286AH",2.58,286,899,900
+"Samanid dirham, Isma'il b. Ahmad, Shash 287 AH",2.24,287,900,
+"Samanid dirham, Isma'il b. Ahmad, Shash 294 AH",3.15,294,906,907
+"Samanid dirham, sr ibn Ahmad, Balkh 323 AH",2.95,323,934,935
+"Samanid dirham, sr II b. Ahmad, Nishapur 329 AH",3.07,329,940,941
+"Samanid dirham, sr II b. Ahmad, Samarkand 314 AH",2.81,314,926,927
+"Samanid dirham, sr II b. Ahmad, Samarkand 317 AH",2.38,317,929,930
+"Samanid dirham, sr II b. Ahmad, Samarkand 327AH",3.82,327,938,939
+"Samanid dirham, sr II b. Ahmad, Samarkand 330 AH",2.46,330,941,942
+"Samanid dirham, sr II b. Ahmad, Samarkand, 321 AH",4.23,321,933,
+"Samanid dirham, sr II b. Ahmad, Shash 309AH",3.38,309,921,922
+"Samanid dirham, sr II b. Ahmad, Shash 312AH",3.05,312,924,925
+"Samanid dirham, sr II b. Ahmad, Shash 316 AH",4.25,316,928,929
+"Samanid dirham, sr II b. Ahmad, Shash 324 AH",3.01,324,935,936
+"Samanid dirham, sr II b. Ahmad, Shash, 306 AH",3.05,306,918,919
+"Samanid dirham, sr II b. Ahmad, Shash, 320 AH",3.11,320,932,
+"Samanid dirham, Nuh b. sr, Buhara 331 AH",3.31,331,942,943
+"Samanid dirham, Nuh b. sr, Buhara, 339 AH",3.33,339,950,951
+"Samanid dirham, Nuh b. sr, Ma'dit 334AH",3.5,334,945,946
+"Samanid dirham, Nuh b. sr, Nishapur 333AH",3.68,333,944,945
+"Samanid dirham, Nuh b. sr, Nishapur 341 AH",2.28,341,952,953
+"Samanid dirham, Nuh b. sr, Samarkand 333 AH",3.44,333,944,945
+"Samanid dirham, Nuh b. sr, Samarkand 334AH",4.05,334,945,946
+"Samanid dirham, Nuh b. sr, Samarkand, 337 AH",4.37,337,948,949
+"Samanid dirham, Nuh b. sr, Shash 334AH graffiti",1.93,334,945,946
+"Samanid dirham, Nuh b. sr, Shash 340AH",4.45,340,951,952
+"Samanid dirham, Nuh b. sr, Shash 341AH",4.25,341,952,953
+"Samanid dirhem, Isma'il b. Ahmad, Shash 290 AH",2.5,290,902,903
+"Samanid multiple dirham, sr II b. Ahmad, Samarkand 328 AH",5.16,328,939,940
+"Samanid multiple dirham, sr II b. Ahmad, Shash 327AH",6.73,327,938,939
+"Samanid multiple dirham, sr II b. Ahmad, Shash, 317 AH",6.3,317,929,930
+,,,,
+AR dirham fraction,0.26,,,
